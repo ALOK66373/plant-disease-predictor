@@ -1,0 +1,32 @@
+# ── Model file (too large for GitHub — host externally) ──────────────────────
+*.h5
+*.keras
+*.pb
+saved_model/
+
+# ── Kaggle credentials (NEVER commit secrets) ────────────────────────────────
+kaggle.json
+*.env
+.env.*
+
+# ── Dataset (GBs of images — never commit) ───────────────────────────────────
+plantvillage-dataset.zip
+plantvillage dataset/
+data/
+
+# ── Python cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+venv/
+env/
+.venv/
+
+# ── OS junk ───────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db

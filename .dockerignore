@@ -1,0 +1,37 @@
+# ── Python cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ── Jupyter / notebooks ───────────────────────────────────────────────────────
+*.ipynb
+.ipynb_checkpoints/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+venv/
+env/
+.venv/
+
+# ── Git & IDE ─────────────────────────────────────────────────────────────────
+.git/
+.gitignore
+.idea/
+.vscode/
+*.DS_Store
+
+# ── Docs & markdown (except requirements) ────────────────────────────────────
+*.md
+*.txt
+!requirements.txt
+
+# ── Kaggle credentials (never in image) ──────────────────────────────────────
+kaggle.json
+
+# ── Dataset (never copy GBs into the image) ──────────────────────────────────
+plantvillage-dataset.zip
+plantvillage dataset/
+data/
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
